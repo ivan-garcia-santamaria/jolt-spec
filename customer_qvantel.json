@@ -1,0 +1,434 @@
+{
+  "data": {
+    "attributes": {
+      "billing-permissions": {
+
+      },
+      "debt-collection-permissions": {
+
+      },
+      "name": "default",
+      "account-type": "",
+      "account-id": "36704",
+      "lifecycle-status": "active",
+      "debt-collection-profile": null,
+      "characteristics": {
+
+      },
+      "valid-for": {
+        "end-datetime": "2049-12-31T23:00:00.000Z",
+        "start-datetime": "2018-10-03T22:00:00.000Z",
+        "meta": {
+          "type": "valid-for-datetime"
+        }
+      }
+    },
+    "relationships": {
+      "billing-accounts": {
+        "data": []
+      },
+      "associated-billing-accounts": {
+
+      },
+      "external-references": {
+
+      },
+      "payment-methods": {
+
+      },
+      "customer-segments": {
+        "data": [{
+          "type": "customer-segments",
+          "id": ""
+        }]
+      },
+      "orders": {
+        "data": [{
+          "type": "orders",
+          "id": "80066592"
+        }]
+      },
+      "related-parties": {
+        "data": [{
+          "type": "party-relationships",
+          "id": "1"
+        }]
+      }
+    },
+    "id": "36704",
+    "meta": {
+
+    },
+    "type": "customer-accounts"
+  },
+  "included": [{
+    "attributes": {
+      "medium-type": "email-address",
+      "role": "primary",
+      "medium": {
+        "email": "ivan.morales@mtp.com",
+        "meta": {
+          "type": "email-address"
+        }
+      },
+      "lifecycle-status": null,
+      "valid-for": {
+        "end-datetime": null,
+        "start-datetime": "2018-06-05T22:00:00.000Z",
+        "meta": {
+          "type": "valid-for-datetime"
+        }
+      }
+    },
+    "relationships": {
+      "party": {
+        "data": {
+          "type": "individuals",
+          "id": "5538696"
+        }
+      }
+    },
+    "id": "1",
+    "meta": {
+
+    },
+    "type": "contact-media"
+  }, {
+    "attributes": {
+      "medium-type": "postal-address",
+      "role": "billing",
+      "medium": {
+        "city": "28108",
+        "postal-code": "01",
+        "state-or-province": null,
+        "description": null,
+        "apartment": null,
+        "country": "",
+        "building": "DEF",
+        "geolocation": {
+          "altitude": null,
+          "latitude": "",
+          "longitude": "",
+          "meta": {
+            "type": "geolocation"
+          }
+        },
+        "county": null,
+        "meta": {
+          "type": "postal-address"
+        },
+        "floor": "+40.4727378586",
+        "street": "Madrid",
+        "room": null,
+        "address-register-id": "",
+        "co-address": "",
+        "post-office-box": null
+      },
+      "lifecycle-status": null,
+      "valid-for": {
+        "end-datetime": null,
+        "start-datetime": "2018-06-05T22:00:00.000Z",
+        "meta": {
+          "type": "valid-for-datetime"
+        }
+      }
+    },
+    "relationships": {
+      "party": {
+        "data": {
+          "type": "individuals",
+          "id": "5538696"
+        }
+      }
+    },
+    "id": "2",
+    "meta": {
+
+    },
+    "type": "contact-media"
+  }, {
+    "attributes": {
+      "completed-at": null,
+      "priority": null,
+      "is-changeable": false,
+      "requested-completion-datetime": null,
+      "sales-info": {
+        "channel": "pos",
+        "chain-id": null,
+        "dealer-id": null,
+        "meta": {
+          "type": "sales-info"
+        },
+        "salesperson-id": "vamshkol",
+        "batch-id": null,
+        "sales-type": null
+      },
+      "created-at": "2018-10-04T07:52:27.000Z",
+      "is-cancelable": null,
+      "lifecycle-status": "completed",
+      "requested-start-datetime": null,
+      "parent-agreement-id": null,
+      "reference-number": "80066592"
+    },
+    "relationships": {
+      "customer-account": {
+        "data": {
+          "type": "customer-accounts",
+          "id": "36704"
+        }
+      },
+      "order-items": {
+        "data": []
+      },
+      "payments": {
+
+      },
+      "related-parties": {
+
+      }
+    },
+    "id": "80066592",
+    "meta": {
+
+    },
+    "type": "orders"
+  }, {
+    "attributes": {
+      "segment-type": "SOHO-AUTONOMO",
+      "name": "SOHO-AUTONOMO",
+      "source": "system",
+      "created-by": null,
+      "valid-for": {
+        "end-datetime": null,
+        "start-datetime": "2018-10-03T22:00:00.000Z",
+        "meta": {
+          "type": "valid-for-datetime"
+        }
+      }
+    },
+    "relationships": {
+      "customer-account": {
+        "data": {
+          "type": "customer-accounts",
+          "id": "36704"
+        }
+      }
+    },
+    "id": "",
+    "meta": {
+
+    },
+    "type": "customer-segments"
+  }, {
+    "attributes": {
+      "issuing-date": null,
+      "issuing-authority": null,
+      "lifecycle-status": null,
+      "identification-id": "80835748V",
+      "identification-type": "NIF",
+      "valid-for": {
+        "end-datetime": null,
+        "start-datetime": "2018-06-05T22:00:00.000Z",
+        "meta": {
+          "type": "valid-for-datetime"
+        }
+      }
+    },
+    "relationships": {
+      "party": {
+        "data": {
+          "type": "individuals",
+          "id": "5538696"
+        }
+      }
+    },
+    "id": "1",
+    "meta": {
+
+    },
+    "type": "identifications"
+  }, {
+    "attributes": {
+      "given-name": "Ivan",
+      "date-of-birth": "1984-10-10",
+      "marital-status": null,
+      "additional-name": "Tello",
+      "preferred-name": null,
+      "honorific-prefix": "Mr.",
+      "formatted-name": "Ivan Morales Tello",
+      "honorific-suffix": null,
+      "characteristics": {
+
+      },
+      "place-of-birth": null,
+      "language": "spa",
+      "nationality": "ES",
+      "date-of-death": null,
+      "privacy-settings": {
+        "markEmail": false,
+        "markBank3rd": false,
+        "markPost": false,
+        "markEmail3rd": false,
+        "markDontSharePersonalData": false,
+        "markSms3rd": false,
+        "markPost3rd": false,
+        "markSms": false
+      },
+      "family-name": "Morales",
+      "country-of-birth": null,
+      "gender": null
+    },
+    "relationships": {
+      "contact-media": {
+        "data": [{
+          "type": "contact-media",
+          "id": "1"
+        }, {
+          "type": "contact-media",
+          "id": "3"
+        }, {
+          "type": "contact-media",
+          "id": "2"
+        }]
+      },
+      "external-references": {
+
+      },
+      "identifications": {
+        "data": [{
+          "type": "identifications",
+          "id": "1"
+        }]
+      },
+      "related-parties": {
+        "data": [{
+          "type": "party-relationships",
+          "id": "1"
+        }]
+      }
+    },
+    "id": "5538696",
+    "meta": {
+
+    },
+    "type": "individuals"
+  }, {
+    "attributes": {
+      "rank": null,
+      "role": "customer",
+      "sub-role": null,
+      "valid-for": {
+        "end-datetime": null,
+        "start-datetime": "2018-10-03T22:00:00.000Z",
+        "meta": {
+          "type": "valid-for-datetime"
+        }
+      }
+    },
+    "relationships": {
+      "party": {
+        "data": {
+          "type": "individuals",
+          "id": "5538696"
+        }
+      },
+      "target": {
+        "data": {
+          "type": "individuals",
+          "id": "1"
+        }
+      }
+    },
+    "id": "1",
+    "meta": {
+
+    },
+    "type": "party-relationships"
+  }, {
+    "attributes": {
+      "medium-type": "telephone-number",
+      "role": "primary",
+      "medium": {
+        "number": "622030374",
+        "number-type": null,
+        "meta": {
+          "type": "telephone-number"
+        }
+      },
+      "lifecycle-status": null,
+      "valid-for": {
+        "end-datetime": null,
+        "start-datetime": "2018-06-05T22:00:00.000Z",
+        "meta": {
+          "type": "valid-for-datetime"
+        }
+      }
+    },
+    "relationships": {
+      "party": {
+        "data": {
+          "type": "individuals",
+          "id": "5538696"
+        }
+      }
+    },
+    "id": "3",
+    "meta": {
+
+    },
+    "type": "contact-media"
+  }, {
+    "attributes": {
+      "given-name": "Ivan",
+      "date-of-birth": "1984-10-10",
+      "marital-status": null,
+      "additional-name": "Tello",
+      "preferred-name": null,
+      "honorific-prefix": "Mr.",
+      "formatted-name": "Ivan Morales Tello",
+      "honorific-suffix": null,
+      "characteristics": {
+
+      },
+      "place-of-birth": null,
+      "language": "spa",
+      "nationality": "ES",
+      "date-of-death": null,
+      "privacy-settings": {
+        "markEmail": false,
+        "markBank3rd": false,
+        "markPost": false,
+        "markEmail3rd": false,
+        "markDontSharePersonalData": false,
+        "markSms3rd": false,
+        "markPost3rd": false,
+        "markSms": false
+      },
+      "family-name": "Morales",
+      "country-of-birth": null,
+      "gender": null
+    },
+    "relationships": {
+      "contact-media": {
+
+      },
+      "external-references": {
+
+      },
+      "identifications": {
+
+      },
+      "related-parties": {
+
+      }
+    },
+    "id": "5538696",
+    "meta": {
+
+    },
+    "type": "individuals"
+  }],
+  "links": {
+    "self": "/customers/36704"
+  }
+}
