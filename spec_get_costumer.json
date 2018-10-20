@@ -51,7 +51,9 @@
                   "nationality": "data.individuals.nationality",
                   "gender": "data.individuals.gender",
                   "given-name": "data.individuals.given_name",
-                  "date-of-birth": "data.individuals.date_of_birth"
+                  "date-of-birth": "data.individuals.date_of_birth",
+                  "marital-status": "data.individuals.marital_status",
+                  "additional-name": "data.individuals.additional_name"
                 }
               }
             }
