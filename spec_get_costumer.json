@@ -53,7 +53,16 @@
                   "given-name": "data.individuals.given_name",
                   "date-of-birth": "data.individuals.date_of_birth",
                   "marital-status": "data.individuals.marital_status",
-                  "additional-name": "data.individuals.additional_name"
+                  "additional-name": "data.individuals.additional_name",
+                  "preferred-name": "data.individuals.preferred_name",
+                  "honorific-prefix": "data.individuals.honorific_prefix",
+                  "formatted-name": "data.individuals.formatted_name",
+                  "honorific-suffix": "data.individuals.honorific_suffix",
+                  "place-of-birth": "data.individuals.place_of_birth",
+                  "date-of-death": "data.individuals.date_of_death",
+                  "privacy-settings": "data.individuals.privacy_settings",
+                  "family-name": "data.individuals.family_name",
+                  "country-of-birth": "data.individuals.country_of_birth"
                 }
               }
             }
