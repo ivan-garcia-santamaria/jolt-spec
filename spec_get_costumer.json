@@ -21,15 +21,6 @@
             }
           }
         },
-        "relationships": {
-          "related-parties": {
-            "data": {
-              "0": {
-                "id": "data.individuals2.given_name"
-              }
-            }
-          }
-        },
         // match any children of "rating"
         // Shiftr has a precendence order when matching, so the "*" will match "last".
         // In this case anything that isn't "primary".
@@ -54,12 +45,15 @@
         "*": {
           "type": {
             "individuals": {
-              "@3": "data.relationships.companies"
-            },
-            // all other values of "type", just pass the "data" blob thru
-            //  at the same path in the output.
-            "*": {
-              "@3": "data.relationships.&4"
+              "@2": {
+                "attributes": {
+                  "language": "data.individuals.language",
+                  "nationality": "data.individuals.nationality",
+                  "gender": "data.individuals.gender",
+                  "given-name": "data.individuals.given_name",
+                  "date-of-birth": "data.individuals.date_of_birth"
+                }
+              }
             }
           }
         }
