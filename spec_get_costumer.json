@@ -74,8 +74,11 @@
   {
     "operation": "default",
     "spec": {
+      "errors": [
+
+   		],
       "data": {
-        "Range": 5,
+        "Range": 50,
         "SecondaryRatings": {
           "*": {
             // Defaut all "SecondaryRatings" to have a Range of 5
