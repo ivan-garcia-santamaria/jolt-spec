@@ -62,7 +62,7 @@
                   "date-of-death": "data.individuals.date_of_death",
                   "privacy-settings": "data.individuals.privacy_settings",
                   "family-name": "data.individuals.family_name",
-                  "country-of-birth": "data.individuals.country_of_birth"
+                  "country-of-birth": "data.individuals.country-of_birth"
                 }
               }
             }
